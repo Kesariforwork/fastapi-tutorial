@@ -1,3 +1,9 @@
 fastapi
-uvicorn
-mangum
+uvicorn[standard]
+sqlalchemy>=1.4
+psycopg2-binary
+alembic
+pydantic
+python-dotenv
+pytest
+httpx
